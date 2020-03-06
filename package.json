@@ -1,0 +1,35 @@
+{
+  "name": "vue-comma-filter",
+  "version": "1.0.0",
+  "description": "Vue.js filter for formatting number into comma separated values.",
+  "keywords": [
+    "vue",
+    "vue-filter"
+  ],
+  "homepage": "https://github.com/yinm/vue-comma-filter#readme",
+  "bugs": {
+    "url": "https://github.com/yinm/vue-comma-filter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yinm/vue-comma-filter.git"
+  },
+  "license": "MIT",
+  "author": "yinm",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublish": "npm run --if-present build"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3",
+    "vue": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.0.0"
+  }
+}
