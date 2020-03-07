@@ -25,7 +25,15 @@
     "build": "tsc -p .",
     "prepublish": "npm run --if-present build"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.3",
     "typescript": "^3.8.3",
     "vue": "^2.6.11"
   },
