@@ -13,7 +13,6 @@ and register in you Vue app
 import Vue from "vue";
 import VueCommaFilter from "vue-comma-filter";
 
-
 Vue.use(VueCommaFilter);
 ```
 
