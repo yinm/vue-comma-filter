@@ -1,15 +1,13 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": "./lib/",
     "sourceMap": true,
     "declaration": true,
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["esnext", "dom"]
+    "lib": ["es2015", "dom"]
   },
   "include": ["src/**/*"],
   "exclude": [".git", "node_modules"]
