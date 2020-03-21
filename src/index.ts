@@ -1,8 +1,5 @@
 import { VueConstructor } from "vue";
-
-const comma = (input: number) => {
-  return input.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
-};
+import { comma } from "./filter";
 
 export default {
   install(Vue: VueConstructor): void {
