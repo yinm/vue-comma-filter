@@ -17,13 +17,16 @@
   "license": "MIT",
   "author": "yinm",
   "files": [
-    "cjs"
+    "cjs",
+    "esm"
   ],
   "main": "cjs/index.js",
-  "types": "./lib/index.d.ts",
+  "module": "esm/index.js",
+  "types": "esm/index.d.ts",
   "scripts": {
-    "build": "npm run build:cjs",
+    "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
     "prepublish": "npm run --if-present build"
   },
   "husky": {
