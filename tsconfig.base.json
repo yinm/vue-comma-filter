@@ -7,7 +7,7 @@
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["esnext", "dom"]
+    "lib": ["es2015", "dom"]
   },
   "include": ["src/**/*"],
   "exclude": [".git", "node_modules"]
