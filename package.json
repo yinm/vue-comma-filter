@@ -17,12 +17,13 @@
   "license": "MIT",
   "author": "yinm",
   "files": [
-    "lib"
+    "cjs"
   ],
-  "main": "lib/index.js",
+  "main": "cjs/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "tsc -p .",
+    "build": "npm run build:cjs",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
     "prepublish": "npm run --if-present build"
   },
   "husky": {
