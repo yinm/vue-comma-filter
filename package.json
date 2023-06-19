@@ -43,9 +43,9 @@
     "jest": "^25.1.0",
     "ts-jest": "^25.2.1",
     "typescript": "^3.8.3",
-    "vue": "^2.6.11"
+    "vue": "^3.0.0"
   },
   "peerDependencies": {
-    "vue": "^2.0.0"
+    "vue": "^3.0.0"
   }
 }
